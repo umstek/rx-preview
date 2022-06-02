@@ -11,6 +11,7 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "reaflow": "^5.0.5",
     "rxjs": "^7.5.5",
     "tslib": "^2.4.0"
   },

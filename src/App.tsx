@@ -1,5 +1,11 @@
+import { Flow } from "./diagram";
+
 function App() {
-  return <div className="App h-96 w-96 bg-red-50"></div>;
+  return (
+    <div className="App w-[800] h-[600]">
+      <Flow />
+    </div>
+  );
 }
 
 export default App;
