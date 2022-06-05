@@ -6,6 +6,7 @@ import "./index.css";
 
 // reaflow fix https://github.com/kieler/elkjs/issues/127
 (window as any).g = null;
+(window as any).i = null;
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

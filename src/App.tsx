@@ -1,10 +1,12 @@
-import { Flow } from "./diagram";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import { Layout } from "./Layout";
 
 function App() {
   return (
-    <div className="App w-[800] h-[600]">
-      <Flow />
-    </div>
+    <BrowserRouter>
+      <Layout />
+    </BrowserRouter>
   );
 }
 
