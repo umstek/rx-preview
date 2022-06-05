@@ -23,7 +23,7 @@ import type { NodeDescriptor } from "./NodeDescriptor";
 import { range } from "./util";
 import { Button, MenuItem } from "./components";
 
-export function XMenu({ children }) {
+export function XMenu({ children }: { children: React.ReactNode }) {
   return (
     <div className="text-right">
       <Menu as="div" className="relative inline-block text-left">
