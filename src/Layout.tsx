@@ -1,4 +1,4 @@
-import { Outlet, Route, Routes } from "react-router-dom";
+import { NavLink, Outlet, Route, Routes } from "react-router-dom";
 
 import PreviewPane from "./PreviewPane";
 import PropertiesPane from "./PropertiesPane";
@@ -15,6 +15,14 @@ export function Layout() {
           </div>
         }
       >
+        <Route
+          index
+          element={
+            <div>
+              <NavLink to="/test">Test</NavLink>
+            </div>
+          }
+        />
         <Route
           path=":fileId"
           element={
