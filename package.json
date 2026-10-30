@@ -9,7 +9,7 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.4",
+    "@headlessui/react": "^2.0.0",
     "@heroicons/react": "^1.0.6",
     "nanoid": "^3.3.4",
     "react": "^18.0.0",
